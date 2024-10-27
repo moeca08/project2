@@ -29,7 +29,7 @@ h1 {
 
 h2 {
 padding: 1em;
-color: dimgrey
+color: #333;
 }
 
 nav {
@@ -123,14 +123,14 @@ main {
 .gallery-item h3 {
     padding: 0 5px;
     text-align: center;
-    color: darkslategrey;
+    color: #333;
     margin-bottom: 3px;
 }
 
 .gallery-item p {
     padding: 0 5px 0px 5px;
     text-align: center;
-    color: darkslategrey;
+    color: #333;
     margin-top: 0;
 }
 
