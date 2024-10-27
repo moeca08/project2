@@ -1,6 +1,6 @@
 body {
-    background-color:lightcyan;
-    font-family:Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
     margin: auto;
 }
 
@@ -68,7 +68,7 @@ nav > ul {
 
 .container {
     width: 100%;
-    background-color: lightcyan;
+    background-color: whitesmoke;
 }
 
 main {
@@ -90,6 +90,124 @@ main {
     padding: 20px;
     flex: 1 1 60%;
 }
+
+/* Gallery Styles */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.gallery h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallery-item {
+    flex: 1 1 calc(25% - 10px); /* Adjust width for four items per row */
+    margin: 5px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* To ensure border radius works */
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block; /* Removes bottom space */
+}
+
+.gallery-item h3 {
+    padding: 0 5px;
+    text-align: center;
+    color: darkslategrey;
+    margin-bottom: 3px;
+}
+
+.gallery-item p {
+    padding: 0 5px 0px 5px;
+    text-align: center;
+    color: darkslategrey;
+    margin-top: 0;
+}
+
+/* Form Section Styling */
+#contact {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form Field Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Button Styling */
+.button-container {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+}
+
+input[type="reset"],
+input[type="submit"] {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    margin-top: 10px;
+}
+
+input[type="submit"] {
+    background-color: mediumseagreen; 
+}
+
+input[type="reset"] {
+    background-color: indianred;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    opacity: 0.9;
+}
+
 
 footer {
     padding: 10px
