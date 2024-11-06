@@ -82,13 +82,27 @@ main {
     padding: 20px;
     flex: 1 1 40%;
 }
-
+.centered-image {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 .right-block {
     background-color: white;
     float: right;
     margin: 10px;
     padding: 20px;
     flex: 1 1 60%;
+}
+.right-block h1 {
+    color: darkslategray;
+    margin: 10% 5% 3% 10%;
+}
+.right-block p{
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 /* Gallery Styles */
@@ -134,6 +148,35 @@ main {
     margin-top: 0;
 }
 
+.accordion-body {
+    padding-left: 20px;
+}
+.accordion-body strong {
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 1px;
+}
+.accordion-body ul {
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.skills {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.contact {
+    padding-left: 60px;
+}
+.contact h2 {
+    font-size: 40px;
+}
+.contact h3 {
+     padding-top: 10px;
+}
 /* Form Section Styling */
 #contact {
     max-width: 600px;
